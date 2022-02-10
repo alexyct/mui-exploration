@@ -27,4 +27,8 @@ export const palette = {
     drawerBackground: '#00325B',
     kanbanBackground: '#F0F0F3',
   },
+  onSurface: {
+    main: '#1A1C1E',
+    variant: '#43474E',
+  },
 };

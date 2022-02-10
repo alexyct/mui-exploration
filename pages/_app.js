@@ -2,6 +2,7 @@ import '../styles/globals.css';
 
 import Head from 'next/head';
 
+import { CssBaseline } from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { typography } from '../styles/typography';
 import { palette } from '../styles/palette';
@@ -27,6 +28,7 @@ function MyApp({ Component, pageProps }) {
         <Head>
           <meta name="viewport" content="initial-scale=1, width=device-width" />
         </Head>
+        <CssBaseline />
         <Component {...pageProps} />
       </ThemeProvider>
     </>
